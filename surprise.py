@@ -6,7 +6,7 @@ def surprise_decorator_func(func: callable) :
     :return: The function that returns another string in this case Surprise.
     """
     def decorate():
-        return "Surprise!"
+        print( "Surprise!")
     return decorate
 
 #********************************************************************************************************************
