@@ -2,7 +2,7 @@ from functools import wraps
 #********************************************************************************************************************
 def decorator_factory_funct(data_type):
     """
-    This is a decorator that gets a type
+    This is a decorator that checks a type
     and must check if the var is an object that the function gets.
     :param data_type: The object type.
     :return: The decorator func
