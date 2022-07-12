@@ -1,16 +1,20 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hello world, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
+from do_twice_decorator import print_name
+from surprise import function_basic
+from type_check import check_type
+#*********************************************************************************************************************
 if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    #surprise_decorator
+    print(function_basic())
+
+    #twice_decorator
+    print_name()
+
+    #type_check
+    print(check_type(2))
+    print( check_type("my exercise "))
+
+#********************************************************************************************************************
+
+
+
