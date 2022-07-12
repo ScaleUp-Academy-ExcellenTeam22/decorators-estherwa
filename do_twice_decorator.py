@@ -15,6 +15,5 @@ def execute_double_decorator(function):
 def print_name():
     """
     We call the print function and use the decorator.
-    :param: Arguments to print.
     """
     print("We are using the twice decorator")
